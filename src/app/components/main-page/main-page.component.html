@@ -1,0 +1,54 @@
+<header class="head">
+    <div>
+    <img src="../assets/cook_64px.png">
+    <img id="logo-text" src="../assets/logo4.png"><span class="lh">(FACTS | RECIPES)</span>
+    </div>
+
+    <div class="categories"> 
+        <button id="d-categories" mat-button [matMenuTriggerFor]="menu">Food Categories</button>
+        <mat-menu #menu="matMenu">
+          <button class ="subMenu" (click) = "setValue('Sweets')" mat-menu-item>Sweets</button>
+          <button class ="subMenu" (click) = "setValue('DosaVarities')" mat-menu-item>Dosa Varieties</button>
+          <button class ="subMenu" (click) = "setValue('RiceVarities')" mat-menu-item>Rice Varities</button>
+          <button class ="subMenu" (click) = "setValue('VegetableDish')" mat-menu-item>Vegetable Dishes</button>
+          <button class ="subMenu" (click) = "setValue('VegetableGravies')" mat-menu-item>Vegetable Gravies</button>
+          <button class ="subMenu" (click) = "setValue('Others')" mat-menu-item>Others</button>
+        </mat-menu> 
+    </div>
+
+    <div >
+        <input id="ipSearch" type="text" name="search" placeholder="Search..." [(ngModel)]="searchFood">
+    </div>
+
+</header>
+  
+    <div class="bg">
+        <div class="grid-container" *ngFor='let food of foods | filter:searchFood'>
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title>{{food.Title}}</mat-card-title>
+                  <mat-card-subtitle id="mat-category">{{food.Category}} | {{food.Info}} </mat-card-subtitle>
+                </mat-card-header>
+                <img class="mat-image" mat-card-image src={{food.ImageUrl}} alt="Foods">
+                <mat-card-content>
+                  <p>
+                    {{food.Description}}
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <!-- rel is used to avoid phishing attacks while target _blank opens the link in a new tab -->
+                  <a target="_blank" rel={{food.Title}} href={{food.NavigateUrl}} ><button class="show-recipe" mat-button>Tell me More!</button></a>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+
+<div class="footer-container">
+    <div id="footer-text">© 2020 Mom's Kitchen</div>
+    <div id="vertical-line"></div>
+    <div id="feedback"><a routerLink="/feedback">Have you got any FeedBack for us ?</a></div>
+</div>
+  
+
+

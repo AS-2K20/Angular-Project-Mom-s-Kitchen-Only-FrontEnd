@@ -1,0 +1,130 @@
+.head{
+    display: grid;
+    background-color:white;
+    grid-template-columns: 2fr 1fr 2fr;
+    height: 80px;
+    background-color: #D1F6FE;
+    position:fixed;
+    width: 100%;
+}
+
+#logo-text{
+    margin-left: 10%;
+    height: 50px;
+    width: auto;
+}
+
+#d-categories{
+    margin-left: 60%;
+   width: 300px;
+   height: 50px;
+   font-size: 1.5rem;
+   border-radius: 25px;
+   margin-top: 5%;   
+   background-color: white;
+   border-color: #80d8ff;
+}
+
+.subMenu{
+    width: 300px;
+    background-color: #48dbfb;
+    color: black;
+}
+
+#d-categories:hover{
+    background-color: black;
+    color: white;
+}
+
+.example-card {
+    margin-top: 180px;
+    border-radius: 25px;
+    margin-left: 100px;
+    max-width: 250px;
+    height: 500px;
+    background-color:#48dbfb;
+    color: black;
+    position: static;
+    margin-bottom: 100px;
+    -moz-box-shadow: 10px 18px 24px #000000;
+    /* -webkit-box-shadow: 10px 18px 24px #000000;
+    box-shadow: 10px 18px 24px #000000; */
+    box-shadow: 0 0 18px black;
+  }
+
+.show-recipe{
+    width: 150px;
+    margin-left: 50px;
+    height: 45px;
+    font-size: large;
+    border-radius: 25px;
+    background-color: white;
+}
+
+#ipSearch{
+    margin-top: 25px;
+    font-size: 1.3em;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 50%;
+    text-align: center;
+    background-image: url('src/assets/searchIcon1.png');
+    background-repeat: no-repeat;
+    background-position-x:10px ;
+    background-position-y:2px ;
+    border-color: #80d8ff;
+}
+
+#mat-category{
+    color: #ff6b6b;
+}
+
+#ipSearch[type=text]:focus {
+    width: 48%;
+}
+
+.bg{
+    background-image: url('src/assets/unsplash3.jpg');
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button:hover{
+    /* background-color: #48dbfb; */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-container{
+    height: 50px;
+    background-color: #D1F6FE;
+}
+
+#footer-text{
+    padding-left:15px ;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+#vertical-line{
+    border-left: 1px solid black;
+    height:30px;
+    margin-left: 250px;
+    margin-top: -23px;
+}
+
+#feedback{
+    margin-top: -28px;
+    margin-left: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.lh{
+    font-size: 1rem;
+    font-weight: bold;
+}

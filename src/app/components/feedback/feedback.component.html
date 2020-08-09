@@ -1,0 +1,24 @@
+<header class="head">
+    <div>
+    <img src="../assets/cook_64px.png">
+    <img id="logo-text" src="../assets/logo4.png">
+    </div>
+</header>
+
+<div class="bg">   
+        <mat-card class="example-card">
+            <mat-card-header>             
+              <mat-card-title class="mat-heading">Don't Be Shy !</mat-card-title>    
+              <mat-card-title class="mat-heading">Come On, Give us </mat-card-title>
+              <mat-card-title class="mat-heading">Your Awesome Ideas !</mat-card-title>              
+            </mat-card-header><br/>
+            <textarea placeholder="Yay ! There you Go ! " class="nameInput" [(ngModel)]="feedback" rows=10 cols="50"></textarea><br/><br/><br>
+            <mat-card-actions>
+              <button class="show-recipe" mat-button (click)="openSnackBar()" [disabled] = "feedback ===''" routerLink="/main" >That's It</button>
+            </mat-card-actions>
+        </mat-card>   
+</div>
+
+<div class="footer-container">
+    <div id="footer-text">© 2020 Mom's Kitchen</div>
+</div>

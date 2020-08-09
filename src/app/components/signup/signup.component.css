@@ -1,0 +1,88 @@
+.head{    
+    height: 80px;
+    background-color: #D1F6FE;
+    width: 100%;
+}
+
+#logo-text{
+    margin-left: 10%;
+    height: 50px;
+    width: auto;
+}
+
+.h2-heading{
+    margin-top: 30px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.h3-heading{
+    text-align: center;
+}
+
+#h3Heading{
+    margin-left: 65px;
+}
+
+.nameInput{
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+    width: 250px;
+}
+
+#matContents{
+    margin-top: 30px;
+}
+
+#matTitle{
+    margin-left: 80px;
+}
+
+button:hover{
+    /* background-color: #48dbfb; */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.example-card {
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 25px;
+    margin-left: 600px;
+    max-width: 350px;
+    height: 380px;
+    background-color:#48dbfb;
+    color: black;
+    position: static;
+  }
+  
+.show-recipe{
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.footer-container{
+    margin-top: 113px;
+    height: 50px;
+    background-color: #D1F6FE;
+}
+
+#footer-text{
+    padding-left:15px ;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+button:disabled{
+    background-color: #ff1744;
+    color: white;
+}

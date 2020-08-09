@@ -1,0 +1,80 @@
+.head{
+    display: grid;
+    background-color:white;
+    grid-template-columns: 2fr 1fr 2fr;
+    height: 80px;
+    background-color: #D1F6FE;
+    position:fixed;
+    width: 100%;
+}
+
+#logo-text{
+    margin-left: 10%;
+    height: 50px;
+    width: auto;
+}
+
+button:disabled{
+    background-color: #ff1744;
+    color: white;
+}
+
+.example-card {
+    margin-top: 180px;
+    border-radius: 25px;
+    margin-left: 600px;
+    max-width: 650px; 
+    height: 400px;
+    background-color:#48dbfb;
+    color: black;
+    position: static;
+    margin-bottom: 100px;
+  }
+
+.show-recipe{
+    width: 150px;
+    margin-left: 120px;
+    height: 45px;
+    font-size: large;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.bg{
+    background-image: url('src/assets/bg1_l.jpg');
+    height:740px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button:hover{
+    /* background-color: #48dbfb; */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-container{
+    height: 50px;
+    background-color: #D1F6FE;
+}
+
+#footer-text{
+    padding-left:15px ;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+textarea{
+    resize: none;
+}
+
+.mat-heading{
+    text-align: center;
+    margin-left: 70px;
+}
