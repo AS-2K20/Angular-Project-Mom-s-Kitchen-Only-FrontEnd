@@ -14,6 +14,10 @@ Mom's Kitchen is about learning some cool facts and recipe details of various In
 
 ![moms_kitch4_1](https://user-images.githubusercontent.com/66553883/98469179-1572f100-2204-11eb-9974-c8bd11f31ef7.png)
 
+## Demo:
+
+Since this is an Angular project, the application can't be run on GitHub IO pages. So I will host the project in Heroku platform and will update the link soon.
+
 ## Note:
 
 I developed this project when I was learning Angular JS framework. So I have given a Simple UI to the project and the project itself is simple and lucid.
