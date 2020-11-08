@@ -16,7 +16,7 @@
         <mat-card-content id="matContents">
             <input [(ngModel)]="userName_text" placeholder="May I know your Cool Name ? " class="nameInput"><br/><br/><br>
             <input placeholder="Email Address Please ? " class="nameInput" [(ngModel)]="userEmail"><br/><br/><br>
-            <input placeholder="Remember Your Strong Password !" class="nameInput" [(ngModel)]="userPassword" ><br/><br/><br/>
+            <input type="password" placeholder="Remember Your Strong Password !" class="nameInput" [(ngModel)]="userPassword" ><br/><br/><br/>
         </mat-card-content>       
         <mat-card-actions>  
             <a routerLink="/login"><button class="show-recipe" mat-button [disabled]="userEmail === '' || userPassword === '' || userName_text === ''" (click)="onSubmit();openSnackBar()">I'm In</button></a>
