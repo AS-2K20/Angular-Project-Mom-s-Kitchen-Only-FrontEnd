@@ -12,8 +12,6 @@ Mom's Kitchen is about learning some cool facts and recipe details of various In
 
 ![moms_kitch2_1](https://user-images.githubusercontent.com/66553883/98469029-4c94d280-2203-11eb-8c4b-2ca898d6c80a.png)
 
-![moms_kitch3_1](https://user-images.githubusercontent.com/66553883/98469078-98477c00-2203-11eb-9fb4-0788afaa629b.png)
-
 ![moms_kitch4_1](https://user-images.githubusercontent.com/66553883/98469179-1572f100-2204-11eb-9974-c8bd11f31ef7.png)
 
 ## Note:
