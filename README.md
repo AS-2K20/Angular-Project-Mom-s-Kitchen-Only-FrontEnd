@@ -2,7 +2,7 @@
 
 ![moms_kitch1](https://user-images.githubusercontent.com/66553883/98467944-320c2a80-21fe-11eb-8fd0-6e651de680c4.png)
 
-Mom's Kitchen is about learning some cool facts and recipe details of various Indian Foods which have been prepared for ages in India. This project has been developed using only Front-End Technologies.
+Mom's Kitchen is about learning some cool facts and recipe details of various Indian Foods which are being prepared for ages in India. This project has been developed using only Front-End Technologies.
 
 ## Technologies Used:
 
