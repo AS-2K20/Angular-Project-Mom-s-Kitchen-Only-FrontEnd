@@ -20,7 +20,7 @@ Since this is an Angular project, the application can't be run on GitHub IO page
 
 ## Note:
 
-I developed this project when I was learning Angular JS framework. So I have given a Simple UI to the project and the project itself is simple and lucid.
+I developed this project when I was learning Angular JS framework. So I have made this project lucid and sleek.
 
 ## Angular CLI Version
 
